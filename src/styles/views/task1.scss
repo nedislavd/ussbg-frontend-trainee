@@ -1,4 +1,165 @@
 /* Task 1 CSS goes here */
-.test {
-    color: pink;
+
+/* Header Styles Bellow*/
+header {
+    position: relative;
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+
+    .content-wrapper {
+        width: auto;
+        position: relative;
+        clear: both;
+        overflow: auto;
+    }
+}
+
+/* Logo Styling */
+.site-logo {
+    float: left;
+    width: 25%;
+    height: 20vw;
+    position: relative;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+/* Navigation Wrapper */
+.site-nav {
+    float: left;
+    width: 75%;
+    height: 20vw;
+    position: relative;
+}
+
+.row {
+    display: block;
+    position: relative;
+
+    clear: both;
+    overflow: auto;
+}
+
+/* Social Media Styles */
+.social-links {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    vertical-align: top;
+
+    .link {
+        float: right;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.nav-links {
+    width: 100%;
+    background-color: #333;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* Site Navigation Styles */
+nav {
+    overflow: hidden;
+
+    background-color: #333;
+
+    display: inline-block;
+    vertical-align: bottom;
+
+    text-align: justify-all;
+}
+nav a {
+    float: left;
+
+    //display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding: 14px 16px;
+
+}
+
+/* Content Wrapper for <main> */
+.content-wrapper  after {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+
+    width: 90%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+/* Banner Section */
+section.banner {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+section.news-wrapper {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+
+    article {
+        float: left;
+        width: 28%;
+        padding: 1%;
+
+        &:first-child {
+            margin: 0 2%;
+        }
+
+        &:last-child {
+            float: right;
+            margin: 0 2%
+        }
+
+    }
+    //.first {
+    //    margin-right: 2%;
+    //    margin-left: 2%;
+    //}
+    //
+    //
+    //.third {
+    //    float: right;
+    //    width: 28%;
+    //    padding: 1%;
+    //    margin-right: 2%;
+    //    margin-left: 2%;
+    //}
 }
