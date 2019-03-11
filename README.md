@@ -14,6 +14,7 @@
 
 ### Start Dev Server
  - Open a command prompt and navigate inside the main repository directory, where `package.json` resides
+    
     `/ussbg-frontend-trainee`
  - Run the following command:
  
