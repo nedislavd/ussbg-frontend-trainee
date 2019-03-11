@@ -3,16 +3,23 @@
 ## Tasks can be found in the ``/Tasks`` Folder
 
 ### Installation
-
-```
-npm install
-```
+ - Open a command prompt and navigate inside the main repository directory, where `package.json` resides
+ 
+    `/ussbg-frontend-trainee`
+ - Run the following command:
+ 
+    ```
+    npm install
+    ```
 
 ### Start Dev Server
-
-```
-npm start
-```
+ - Open a command prompt and navigate inside the main repository directory, where `package.json` resides
+    `/ussbg-frontend-trainee`
+ - Run the following command:
+ 
+    ```
+    npm start
+    ```
 
 ### Build Prod Version
 
