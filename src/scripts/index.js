@@ -1,3 +1,4 @@
 import '../styles/index.scss';
+import './tasks/task2';
 
-console.log('webpack starterkit');
+console.log('Hello from the console sideeeeee...');
