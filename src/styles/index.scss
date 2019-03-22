@@ -1,17 +1,10 @@
+/* Helpers */
+@import './helpers/normalize';
+@import './helpers/variables';
+
+/* Components*/
+@import './components/common';
+
+/* Views */
+@import './views/home';
 @import './views/task1.scss';
-
-$body-color: #000000;
-
-body {
-    color: $body-color;
-    margin: 0;
-}
-
-header {
-    padding: 30px 10%;
-    text-align: center;
-}
-
-main {
-    margin: 0 10%;
-}

@@ -1,0 +1,25 @@
+/* Home Page Styles */
+.homepage {
+    h2 {
+        text-align: center;
+    }
+
+    .col-md-6 {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .task-wrapper {
+        margin-bottom: 30px;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            margin: 8px 0;
+            padding: 0 5% 0 0;
+        }
+    }
+}
