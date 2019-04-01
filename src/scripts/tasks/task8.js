@@ -1,16 +1,15 @@
-'use strict';
 
-(function () {
-    console.log('||Task 8 Bellow||');
 
-    /***
-     * Function that takes two strings and swaps their first 2 characters.
-     * param {String} string1
-     * param {String} string2
-     * returns a concatenated string of the 2 with the first 2 characters swapped and the string separated by a space, {String}
-     ***/
-    let mixUp = function (string1, string2) {
+function mixUp([n, m]) {
 
-    };
+    let a = String(n);
+    let b = String(m);
+    let str1 = a.substring(0, 2);
+    let str2 = b.substring(0, 2);
+      b = b.replace(str2, str1);
+      a = a.replace(str1, str2);
+    console.log(a)
+    console.log(b)
+}
 
-})();
+mixUp(['gnash', 'sport'])

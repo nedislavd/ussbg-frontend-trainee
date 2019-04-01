@@ -1,7 +1,20 @@
-'use strict';
 
-(function () {
-    console.log('||Task 3 Bellow||');
+function FizzBuzz([n]) {
 
+    let a = Number(n);
 
-})();
+    for (let i = 1; i < a; i++) {
+
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log('FizzBuzz');
+        } else if (i % 3 === 0) {
+            console.log('Fizz');
+        } else if (i % 5 === 0) {
+            console.log('Buzz');
+        } else {
+            console.log(i);
+        }
+    }
+}
+
+FizzBuzz([5])
