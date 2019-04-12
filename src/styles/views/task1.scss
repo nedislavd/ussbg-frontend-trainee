@@ -15,6 +15,11 @@ header {
         overflow: auto;
     }
 }
+.gradient {
+    background-image: linear-gradient(
+                    black, #333, white, white, black
+    );
+  }
 
 /* Logo Styling */
 .site-logo {
@@ -58,7 +63,8 @@ header {
     vertical-align: top;
 
     .link {
-        float: right;
+       //float: right;
+        display: inline-block;
         width: 25px;
         height: 25px;
         margin-right: 10px;
@@ -98,7 +104,6 @@ nav {
 nav a {
     float: left;
 
-    //display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -130,36 +135,43 @@ section.banner {
 
 
 section.news-wrapper {
-    clear: both;
-    position: relative;
-    overflow: hidden;
+  clear: both;
+  position: relative;
+  overflow: hidden;
 
-    article {
-        float: left;
-        width: 28%;
-        padding: 1%;
+  article {
+    float: left;
+    bottom: 0;
+    width: 28%;
+    padding: 1%;
 
-        &:first-child {
-            margin: 0 2%;
-        }
-
-        &:last-child {
-            float: right;
-            margin: 0 2%
-        }
+    &:first-child {
+      margin: 0 2%;
 
     }
-    //.first {
-    //    margin-right: 2%;
-    //    margin-left: 2%;
-    //}
-    //
-    //
-    //.third {
-    //    float: right;
-    //    width: 28%;
-    //    padding: 1%;
-    //    margin-right: 2%;
-    //    margin-left: 2%;
-    //}
+
+    &:last-child {
+      float: right;
+      margin: 0 2%
+
+    }
+
+  }
 }
+  .footer {
+    margin-top: 75px;
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px 8px;
+
+    a {
+      color: white;
+    }
+  }
+
