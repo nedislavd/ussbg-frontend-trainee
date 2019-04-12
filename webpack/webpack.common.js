@@ -29,7 +29,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: Path.resolve(__dirname, '../src/views/task1.html'),
       filename: './views/task1.html'
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: Path.resolve(__dirname, '../src/views/task9.html'),
+      filename: './views/task9.html'
+    }),
   ],
   resolve: {
     alias: {
