@@ -1,17 +1,15 @@
-'use strict';
 
-(function () {
-    console.log('||Task 6 Bellow||');
 
-    /***
-     * Function that takes an array and returns the length of the longest word
-     * param {Array of Strings} arrayOfWords
-     * returns the length of the longest word, {String}
-     ***/
-    let findLongestWord = function (arrayOfWords) {
 
-    };
+function findLongestWord([n]) {
+    let max = 0;
+    let d = n.split(' ');
+    for (let i = 0; i < d.length; i++) {
+        if (d[i].length > max) {
+            max = d[i].length;
+        }
+    }
+    console.log('The longest word is ' + max + ' elements long')
+}
 
-    console.log(findLongestWord(['This', 'is', 'a', 'test', 'array', 'of', 'strings']));
-
-})();
+findLongestWord(['This should be checked for the longest word here'])

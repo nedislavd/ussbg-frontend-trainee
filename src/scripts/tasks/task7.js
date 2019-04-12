@@ -1,15 +1,37 @@
-'use strict';
 
-(function () {
-    console.log('||Task 7 Bellow||');
 
-    /***
-     * Function that takes a string and returns an object containing the frequency of the listed characters in the string
-     * param {String} entryString
-     * returns an object containing the frequency of the listed characters in the string, {Object}
-     ***/
-    let charFreq = function (entryString) {
 
-    };
 
-})();
+
+function charFreq(n) {
+
+    // let count = 0;
+    let frequencyCount = {};
+   /* for (let i = 0; i <= n.length; i++) {
+        // console.log(n.charAt(i))
+        if (frequencyCount[n.charAt(i)]) {
+            frequencyCount[n.charAt(i)]++
+        } else {
+            frequencyCount[n.charAt(i)] = 1;
+        }
+        // for (let j = i + 1; j <= n.length; j++) {
+        //     if (n[j]=== n[i]) {
+        //     count++;
+        //     console.log('elemnet ' + n[j] + " " + count)
+        //     }
+        //
+        // }
+    }
+    */
+    let stringArray = n.toLowerCase().split('');
+    console.log(stringArray);
+
+    stringArray.forEach((char) => {
+        frequencyCount[char] ? frequencyCount[char]++ : frequencyCount[char] = 1;
+    })
+
+    return frequencyCount
+
+}
+
+console.log(charFreq('aabiabcbdbabd'));
