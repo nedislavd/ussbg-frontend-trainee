@@ -7,5 +7,6 @@ import './tasks/task6';
 import './tasks/task7';
 import './tasks/task8';
 import './tasks/task9';
+import './tasks/task10';
 
 console.log('Hello from the console sideeeeee...');

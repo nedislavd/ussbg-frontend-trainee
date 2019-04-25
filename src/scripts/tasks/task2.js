@@ -1,29 +1,22 @@
 
 
 
-function solve([n]) {
-    n = Number(n);
-    let result =new Array(n);
-    for (let i = 0; i < n; i++) {
-        result[i] = [];
-    }
+function solve([arg]) {
+    let numberOfRows = Number(arg);
+    let triangle = [];
 
-  //  for (let row = 0; row < n; row++) {
-      /*  for (let blank=0; blank<n-row; blank++)
-            {
-                console.log(' ');
+    for (let row = 0; row < numberOfRows; row++) {
+        triangle[row] = [row + 1];
+        for (let col = 0; col < row + 1; col++) {
+            if (col == 0 || col == row) {
+                triangle[row][col] = 1;
+            } else {
+                triangle[row][col] = triangle[row - 1][col - 1] + triangle[row - 1][col];
             }
-        for (let col = 0; col <row+1; col++) {
-           */ if (row === 0 || col === 0) { result[row][col]=1; }
-            else
-                {
-                    result[row][col] = result[row][col] ;
-                }
-
-             console.log(result[row][col] + '  ');
-         }
         }
     }
+    console.log(triangle);
+}
 
 solve(["5"]);
 
