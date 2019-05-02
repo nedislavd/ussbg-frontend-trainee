@@ -1,1 +1,31 @@
-/* Task 9 Styles go here */
+body {
+  text-align: center;
+}
+
+p {
+  overflow: auto;
+  display: table;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  background-color: black;
+  color: black;
+  margin: 2px auto 0px auto;
+}
+
+p span {
+  display: table-cell;
+  background-color: #66ffff;
+  width: 30px;
+}
+
+p span:nth-child(even) {
+  display: table-cell;
+  background-color: #3d5c5c;
+  color: black;
+  width: 30px;
+}
+
+div {
+  margin-top: 20px;
+}
