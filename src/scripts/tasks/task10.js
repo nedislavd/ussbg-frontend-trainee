@@ -1,10 +1,27 @@
 'use strict';
 // import Siema here as per requirements
+import Siema from 'siema';
 
-(function () {
-    console.log('||Task 10 Bellow||');
+function onInitCallback() {
+    console.log('Siema initialised bro :)');
+}
 
-    // make a new Siema instance here
+function onChangeCallback() {
+    console.log(`The index of current slide is: ${this.currentSlide}`);
+}
 
-    // create a Prev/Next buttons click event listeners and attach them to Siema's prev/next slide functionality
-})();
+const mySiema = new Siema({
+    selector: '.siema',
+    duration: 500,
+    loop: true,
+    startIndex: 0,
+    draggable: true,
+    onInit: onInitCallback,
+    onChange: onChangeCallback,
+});
+
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+prev.addEventListener('click', () => mySiema.prev());
+next.addEventListener('click', () => mySiema.next());

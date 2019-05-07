@@ -126,36 +126,45 @@ nav a {
 
 /* Banner Section */
 section.banner {
-    img {
-        width: 100%;
-        height: auto;
+    margin: 1rem 0;
     }
+
+img{
+  width: 1000px;
+  height: 200px;
 }
-
-
-
+button{
+  color: white;
+  background-color: darkred;
+  border-color: transparent;
+}
 section.news-wrapper {
   clear: both;
+
   position: relative;
   overflow: hidden;
 
   article {
+
     float: left;
     bottom: 0;
     width: 28%;
+    background-color: transparent;
     padding: 1%;
 
     &:first-child {
       margin: 0 2%;
 
     }
-
     &:last-child {
       float: right;
       margin: 0 2%
-
     }
-
+  }
+  p{
+    border-color: transparent;
+    color: #333;
+    background-color: transparent;
   }
 }
   .footer {
@@ -165,7 +174,7 @@ section.news-wrapper {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 2px 8px;
