@@ -1,4 +1,16 @@
 /* Home Page Styles */
+.body-home header {
+    background-color: #0b6eb2;
+
+    .uniqa-banner {
+        display: block;
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+    }
+}
 .homepage {
     h2 {
         text-align: center;

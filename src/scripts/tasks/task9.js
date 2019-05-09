@@ -8,7 +8,7 @@ let generatePascalsTriangle = (numberOfRows) => {
             if (col == 0 || col == row) {
                 triangle[row][col] = 1;
             } else {
-                triangle[row][col] = triangle[row - 1][col - 1] + triangle[row - 1][col]
+                triangle[row][col] = triangle[row - 1][col - 1] + triangle[row - 1][col];
             }
         }
     }
@@ -27,11 +27,11 @@ let generatePascalsTriangle = (numberOfRows) => {
 
 };
 
-function myFunction() {
+window.generatePascalTriangle = function () {
     var div = document.getElementById('myDIV');
     while (div.firstChild) {
         div.removeChild(div.firstChild);
     }
     generatePascalsTriangle(document.getElementById("myInput").value);
-}
+};
 

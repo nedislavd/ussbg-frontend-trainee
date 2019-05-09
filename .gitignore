@@ -1,8 +1,7 @@
 # dependencies
 node_modules
 
-# production
-build
+# production - removed build to host on github pages
 
 # misc
 .DS_Store
