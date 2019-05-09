@@ -1,4 +1,5 @@
 # USS BG Frontend Intern Tasks 
+![Project Banner](https://github.com/nedislavd/ussbg-frontend-trainee/blob/master/public/img/ussbg-frontend-internship-banner.png)
 
 ## Tasks can be found in the ``/Tasks`` Folder
 
