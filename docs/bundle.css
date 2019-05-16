@@ -328,30 +328,58 @@ main {
     max-width: 640px;
     height: auto; }
 
-.homepage h2 {
-  text-align: center; }
+.homepage {
+  font-family: "Trebuchet MS"; }
+  .homepage h2 {
+    text-align: center;
+    color: #0b6eb2;
+    margin: 40px 0;
+    font-size: 46px;
+    font-family: "Bookman Old Style"; }
+  .homepage .row {
+    display: block;
+    position: relative;
+    width: 100%;
+    clear: both;
+    overflow: hidden; }
+  .homepage .col-md-6 {
+    width: 47%;
+    display: inline-block;
+    vertical-align: top; }
+    .homepage .col-md-6:nth-child(even) {
+      margin-left: 1%; }
+    .homepage .col-md-6:nth-child(odd) {
+      margin-right: 1%; }
+  .homepage .task-wrapper {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 20px; }
+    .homepage .task-wrapper h4 {
+      margin-top: 10px;
+      font-size: 18px; }
+    .homepage .task-wrapper p {
+      margin: 8px 0;
+      padding: 0 5% 0 0; }
+    .homepage .task-wrapper .view-page {
+      margin-top: 20px; }
 
-.homepage .row {
-  display: block;
-  position: relative;
+.body-home footer {
   width: 100%;
-  clear: both;
-  overflow: hidden; }
-
-.homepage .col-md-6 {
-  width: 49%;
-  display: inline-block;
-  vertical-align: top; }
-
-.homepage .task-wrapper {
-  margin-bottom: 30px; }
-  .homepage .task-wrapper h4 {
-    font-size: 18px; }
-  .homepage .task-wrapper p {
-    margin: 8px 0;
-    padding: 0 5% 0 0; }
-  .homepage .task-wrapper .view-page {
-    margin-top: 20px; }
+  height: 80px;
+  margin-top: 45px;
+  padding-top: 27px;
+  background-color: #0b6eb2;
+  position: relative;
+  text-align: right; }
+  .body-home footer a {
+    display: block;
+    margin: 0 20px 15px 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Courier New";
+    text-decoration: none;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), 2px 2px 25px rgba(0, 0, 0, 0.5); }
 
 /* Task 1 CSS goes here */
 /* Header Styles Bellow*/
