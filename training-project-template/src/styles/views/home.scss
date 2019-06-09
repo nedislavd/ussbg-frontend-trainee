@@ -1,0 +1,91 @@
+/* Home Page Styles */
+.body-home header {
+    background-color: #0b6eb2;
+
+    .uniqa-banner {
+        display: block;
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+    }
+}
+.homepage {
+    font-family: "Trebuchet MS";
+
+    h2 {
+        text-align: center;
+        color: #0b6eb2;
+        margin: 40px 0 60px 0;
+        font-size: 46px;
+
+        font-family: "Bookman Old Style";
+    }
+    
+    .row {
+        display: block;
+        position: relative;
+        width: 100%;
+
+        clear: both;
+        overflow: hidden;
+    }
+
+    .col-md-6 {
+        width: 47%;
+        display: inline-block;
+        vertical-align: top;
+
+        &:nth-child(even) {
+            margin-left: 1%;
+        }
+
+        &:nth-child(odd) {
+            margin-right: 1%;
+        }
+    }
+
+    .task-wrapper {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: cornsilk;
+        border-radius: 20px;
+
+        h4 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        p {
+            margin: 8px 0;
+            padding: 0 5% 0 0;
+        }
+
+        .view-page {
+            margin-top: 20px;
+        }
+    }
+}
+
+.body-home footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 45px;
+    padding-top: 27px;
+    background-color: #0b6eb2;
+    position: relative;
+    text-align: right;
+
+    a {
+        display: block;
+
+        margin: 0 20px 15px 0;
+
+        color: #FFFFFF;
+        font-size: 18px;
+        font-family: "Courier New";
+        text-decoration: none;
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), 2px 2px 25px rgba(0, 0, 0, 0.5);
+    }
+}
